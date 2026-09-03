@@ -22,3 +22,38 @@ form {
   font: inherit;
   display: block;
 }
+
+fieldset {
+  border: 1px solid #ccc;
+  padding: 1rem;
+  margin-bottom: 1rem;
+}
+
+label {
+  display: block;
+  margin-bottom: 0.5rem;
+  font-weight: bold;
+}
+
+input {
+  padding: 0.6em;
+  margin: 0.5em auto;
+}
+
+input [type="text"], input [type="email"], input [type="tel"] {
+  display: block;
+  width: 100%;
+  padding: 2em;
+  margin-bottom: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+button {
+  background-color: var(--primary-color);
+  color: #fff;
+  border: none;
+  padding: 0.5rem 1rem;
+  cursor: pointer;
+  font-size: 1rem;
+}
