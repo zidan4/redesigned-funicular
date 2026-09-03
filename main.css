@@ -1,0 +1,24 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --primary-color: #4CAF50;
+  --secondary-color: #f44336;
+  --text-color: #333;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f4;
+  color: var(--text-color);
+  line-height: 1.6;
+  font-size: 1rem;
+}
+
+form {
+  font: inherit;
+  display: block;
+}
